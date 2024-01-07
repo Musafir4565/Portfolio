@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" href="index2.css">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,10 @@
 
 <body>
 
-    <div id="navbar" class="d-flex justify-content-around my-3">
-        <div class="d-flex">
-            <p class="fw-bold">Portfolio</p>
-            <ul class="d-flex">
+    <div id="navbar" class="d-md-flex justify-content-around my-3">
+        <div class="d-md-flex">
+            <p class="fw-bold text-center">Portfolio</p>
+            <ul class="d-flex justify-content-center ps-0 ps-md-5">
                 <li class="list-group-item me-3"><a style="color: #96BB7C;" class="text-decoration-none fw-bold"
                         href="">Home</a></li>
                 <li class="list-group-item me-3"><a style="color: #96BB7C;" class="text-decoration-none fw-bold"
@@ -25,7 +26,7 @@
                         href="">contact</a></li>
             </ul>
         </div>
-        <div>
+        <div class="d-flex justify-content-center">
             <button style="color:#96BB7C" class="border-0 bg-white primarygreen fw-bold">login</button>
             <button style="background-color:#96BB7C;"
                 class="bg-primaryGreen border-0 px-3 py-2 rounded text-white fw-bold">
@@ -35,8 +36,8 @@
     </div>
 
     <div class="container">
-        <div class="">
-            <div class="">
+        <div style="padding-top: 220px;" class="d-flex justify-content-between flex-column flex-md-row">
+            <div>
                 <p style="color:#96BB7C;" class="fw-bold">online</p>
                 <h1 class="fw-bold">HIGH QUALITY COURSES</h1>
                 <p>Every day brings with it a fresh set of learning possibilities</p>
@@ -44,25 +45,73 @@
                     class="bg-PrimaryGreen border-0 px-3 py-2 rounded text-white fw-bold">get Quote now</button>
                 <button style="color: #96BB7C; border-color: #96BB7C;" class="px-3 py-2 fw-bold rounded">learn
                     more</button>
-                <div>
-                    <img src="portfolio/Learning.png" alt="">
-                </div>
             </div>
+            <div>
+                <img src="portfolio/Learning.png" alt="">
+            </div>
+
         </div>
     </div>
 
 
-    <div style="margin-top: 300px;" class="container">
-        <div>
-            <h1 class="fw-bold">ABOUT ME</h1>
-            <p>I am a 15 year old boy </p>
+    <div style="margin-top: 150px;" class="container">
+        <div class="mb-5">
+            <p style="color:#96BB7C;" class="fw-bold">Practice Advice</p>
+            <h2>Our Popular Courses</h2>
+            <p class="secondaryColor mb-0">Problems trying to resolve conflict between</p>
+            <p class="secondaryColor">the two major realms of Classical physics: Newtonian Mechanics</p>
         </div>
-        <div>
+
+
+        <div id="cardContainer" class="row">
+            <div class="col-md-3 shadow">
+                <img src="portfolio icons/HTML5_Badge_512.png" width="50">
+                <h4 class="mt-2">HTML</h4>
+                <div class="redLine my-2"></div>
+                <p>Description Here</p>
+            </div>
+            <div class="col-md-3 shadow">
+                <img src="portfolio icons/CSS3_logo.svg.png" width="50">
+                <h4 class="mt-2">CSS</h4>
+                <div class="redLine my-2"></div>
+                <p>Description Here</p>
+            </div>
+            <div class="col-md-3 shadow">
+                <img src="portfolio icons/javascript-logo-javascript-icon-transparent-free-png.png" width="50">
+                <h4 class="mt-2">JS</h4>
+                <div class="redLine my-2"></div>
+                <p>Description Here</p>
+            </div>
+            <div class="col-md-3 shadow">
+                <img src="portfolio icons/bootstrap-5-logo-icon.png" width="50">
+                <h4 class="mt-2">Bootstrap</h4>
+                <div class="redLine my-2"></div>
+                <p>Description Here</p>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials -->
+    <div class="container">
+        <div class="my-5">
+            <p class="Primarygreen fw-bold"> Testimonials</p>
+            <h2>Video in Live Action</h2>
+            <p class="secondaryColor mb-0">Problems trying to resolve the conflict between </p>
+            <p class="secondaryColor">the two major realms of Classical physics: Newtonian mechanics</p>
+        </div>
+
+        <!-- Testimonials card container -->
+        <div class="d-md-flex justify-content-center align-items-center gap-5">
+            <div class="px-5 d-flex flex-column justify-content-center align-items-center">
+                <div>
+
+                </div>
+            </div>
 
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 
 </html>
